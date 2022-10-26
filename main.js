@@ -16,8 +16,8 @@ window.onscroll=function(){
     boat.style.top= value +'px';
     boat.style.left= value*3.5 +'px';
     safari.style.fontSize= value +'px';
-    if (scrollY>=65){
-        safari.style.fontSize=65 +'px';
+    if (scrollY>=40){
+        safari.style.fontSize=40 +'px';
        safari.style.position = 'fixed';
 
         if(scrollY>=400){
