@@ -5,11 +5,12 @@
 
 
 
- h2{
+ .title h2{
 
     text-align: center;
     font-size: 40px;
-    margin: 20px 0;
+    margin: 80px 40px 0;
+    padding: 1px;
     position: relative;
     color: #fff;
     
@@ -189,9 +190,321 @@ form input[ type="submit"]:hover{
     color: #fff;
 }
 
+/*********************************************** media puerry *******/
 
-@media screen and (max-width:1327px) {
+
+
+@media (max-width:1330px) {
+
+
+
+.add-to-cart{
+
+   
+    font-size: 100%;
+
+
+}
+
+
+.p-size{
+
+  
+    height: 70px;
+  
+}
+
+
+
+.product-item{
+    width:15%;
+   
+    border: 5px solid rgb(111, 105, 105) ;
+    direction: rtl;
+    margin: 10px;
+    border-radius:10px;
+    background-color: rgb(244, 243, 179);
+    
+    
+   
+   
+    
+    
+}
+
 
 
     
 }
+
+
+
+
+
+@media (max-width:1060px) {
+
+
+
+
+    
+    
+    
+    .product-item{
+        width:18%;
+       
+       
+       
+        
+        
+    }
+
+
+    
+ h2{
+
+   
+    font-size: 30px;
+   
+    
+}
+
+    
+    
+    
+        
+    }
+
+
+
+    
+@media (max-width:875px) {
+
+
+    
+    
+    .product-item{
+        width:20%;
+       
+       
+       
+        
+        
+    }
+   
+    
+.add-to-cart{
+
+   
+    font-size: 85%;
+
+
+}
+    
+        
+ }
+
+
+
+    
+@media (max-width:864px) {
+
+
+
+
+        
+        
+        
+        .product-item{
+            width:25%;
+        
+        
+        
+            
+            
+        }
+
+
+     
+ .title h2{
+
+   
+    font-size: 40px;
+   
+    
+}
+
+    
+    .add-to-cart{
+
+    
+        font-size:110%;
+
+
+    }
+
+    
+    
+    
+        
+ }
+
+   
+ @media (max-width:740px) {
+
+
+
+
+    
+    
+    
+    .product-item{
+        width:40%;
+       
+       
+       
+        
+        
+    }
+
+
+    
+ .title h2{
+
+   
+    font-size: 40px;
+   
+}
+
+ 
+
+
+.add-to-cart{
+
+    
+    font-size:135%;
+
+
+}
+    
+    
+    
+        
+    }
+
+
+     
+ @media (max-width:525px) {
+
+
+
+
+        
+        
+            
+
+
+    
+    .add-to-cart{
+
+    
+        font-size:132%;
+
+
+    }
+
+    
+    
+    
+        
+ }
+
+
+ @media (max-width:509px) {
+
+
+
+
+    
+    
+    
+    .product-item{
+        width:55%;
+       
+       
+       
+        
+        
+    }
+
+
+    
+ .title h2{
+
+   
+    font-size: 28px;
+   
+    
+    
+}
+
+ 
+
+
+.add-to-cart{
+
+    
+    font-size:145%;
+
+
+}
+    
+    
+    
+        
+    }
+
+
+    
+ @media (max-width:409px) {
+
+
+
+
+    
+    
+    
+    .product-item{
+        width:60%;
+       
+       
+       
+        
+        
+    }
+
+
+    
+ .title h2{
+
+   
+    font-size: 20px;
+   
+    
+}
+
+ 
+
+
+.add-to-cart{
+
+    
+    font-size:115%;
+
+
+}
+    
+    
+    
+        
+    }
+    

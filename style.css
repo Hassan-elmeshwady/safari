@@ -148,6 +148,33 @@ header ul li a:hover, .active{
 }   
 
 
+@media (max-width:300px){
+
+    
+    
+        
+    header .logo{
+        font-size:30px;
+
+
+    } 
+
+
+
+    header ul li a{
+        padding: 3px 6px;
+    
+        font-size: 10px;
+    }
+
+
+    header ul li{
+        margin-right: 15px;
+    
+    
+    }
+    
+    }
 
 
 
