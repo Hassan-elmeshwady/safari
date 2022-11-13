@@ -20,7 +20,8 @@ window.onscroll=function(){
         safari.style.fontSize=40 +'px';
        safari.style.position = 'fixed';
 
-        if(scrollY>=390){
+       
+        if(scrollY>=385){
             safari.style.display= 'none';
         }
 
